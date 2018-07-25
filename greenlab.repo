@@ -1,0 +1,19 @@
+[GreenLab-rhel]
+name=GreenLab prod rhel
+baseurl=https://satellite.atgreen.lab/pulp/repos/GreenLab/Prod/cv-rhel-server-7/content/dist/rhel/server/7/7Server/x86_64/os
+enabled=1
+gpgcheck=0
+sslverify=0
+sslclientcert=/GreenLab.crt
+sslclientkey=/GreenLab-key.pem
+
+
+[GreenLab-extras]
+name=GreenLab prod extras
+baseurl=https://satellite.atgreen.lab/pulp/repos/GreenLab/Prod/cv-rhel-server-7/content/dist/rhel/server/7/7Server/x86_64/extras/os
+enabled=1
+gpgcheck=0
+sslverify=0
+sslclientcert=/GreenLab.crt
+sslclientkey=/GreenLab-key.pem
+
