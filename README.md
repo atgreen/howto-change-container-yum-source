@@ -1,4 +1,4 @@
-How to sever the container host yum dependency for Satellite managed container platforms
+How to decouple the container host yum dependency for Satellite managed container platforms
 ========================================================================
 
 On RHEL systems, containers inherit the subscription and Satellite
