@@ -1,5 +1,8 @@
 [GreenLab-rhel]
 name=GreenLab prod rhel
+# The base URL can be determined by loading the debug certificate into
+# your browser, and browsing Satellite.  In this example, GreenLab is
+# my Organization, and Prod is my envionment.
 baseurl=https://satellite.atgreen.lab/pulp/repos/GreenLab/Prod/cv-rhel-server-7/content/dist/rhel/server/7/7Server/x86_64/os
 enabled=1
 gpgcheck=0
