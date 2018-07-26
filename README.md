@@ -6,7 +6,7 @@ Content Views of the container host.  This can be problematic if there
 are different currency expectations for host and container images.
 
 The Makefile in this git repo gives an example of how to configure a
-RHEL base image so that it sources content from repos and Content
+RHEL base image so that it sources content from Satellite-hosted repos and Content
 Views that are different from the host.
 
 In order to make this work, we use 'debug certificates' from Satellite.  These
